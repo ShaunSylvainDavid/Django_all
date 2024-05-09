@@ -1,16 +1,16 @@
 **To create the project first give:**
 
-pip install django
+    pip install django
 
-django-admin createproject <project_name>
+    django-admin createproject <project_name>
 
-django-admin startapp myapp
+    django-admin startapp myapp
 
 **To run:**
 
-python manage.py runserver
+    python manage.py runserver
 
 **If error related to migrations:**
 
-python manage.py makemigrations
-python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
